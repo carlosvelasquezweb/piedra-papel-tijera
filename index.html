@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	
+	<title>Piedra,Papel o Tijera</title>
+</head>
+
+<body>
+	<div id="juego">
+		<h1>Piedra, Papel ó Tijera</h1>
+		<!--Buttons-->
+		<img onclick="usuario('0');" id="piedra" src="img/piedras.png" alt="Piedra" >
+		<img onclick="usuario('1');" id="papel" src="img/papel.png" alt="Papel" >
+		<img onclick="usuario('2');" id="tijera" src="img/tijeras.png" alt="Tijera" >
+	</div>
+
+	<!--Aqui se muestra el resultado-->
+	<div id="efecto" style="display:none" onclick="quitarEfecto();"></div>
+
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
